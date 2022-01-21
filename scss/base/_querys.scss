@@ -1,0 +1,76 @@
+/* Querys */
+
+@media only screen and (min-width: 280px) and (max-width: 1120px) {
+    
+    body {
+        overflow-x: auto;
+    }
+    
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 0.7em;
+    }
+    
+    h6 {
+        margin-top: 3em;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        top: 0;
+        position: sticky;
+        margin-top: 0.5em;
+        margin-left: 0 !important;
+        flex-wrap: wrap !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-light .navbar-toggler {
+        margin-top: 0.6em;
+        color: rgb(255 255 255);
+        border-color: rgb(255 255 255);
+    }
+    
+    .navbar-collapse {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button {
+        margin-top: 0;
+    }
+    
+    .navbar-toggler {
+        font-size: 0.8em;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+} 

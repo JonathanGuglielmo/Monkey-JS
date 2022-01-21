@@ -1,0 +1,72 @@
+@import '../base/variables';
+@import '../base/colors';
+@import '../functions/extends';
+
+/*  MENU  */
+header {
+    width: 100%;
+    z-index: 99999;
+    color: nth($colores1, 5); 
+    @extend %flexbox1;
+    background-color: $bg-color-lb;
+    .container-fluid {
+        width: 60%;
+    }
+}
+
+.bg-light {
+    z-index: 99999;
+    background-color: rgb(92, 143, 92) !important;
+}
+
+.logo {
+    z-index: 99999;
+    vertical-align: middle;
+    width: 40%;
+    &:hover {
+        transform: scale(1.1);
+    }
+    @media only screen and (min-width: 280px) and (max-width: 1120px) {
+        display: block;
+    }
+}
+
+.logo3 {
+    z-index: 99999;
+    vertical-align: middle;
+    width: 11%;
+    &:hover {
+        transform: scale(1.1);
+    }
+    @media only screen and (min-width: 280px) and (max-width: 1120px) {
+        display: block;
+    }
+}
+
+.logo4 {
+    z-index: 99999;
+    vertical-align: middle;
+    width: 13%;
+    &:hover {
+        transform: scale(1.1);
+    }
+    @media only screen and (min-width: 280px) and (max-width: 1120px) {
+        display: block;
+    }
+}
+
+.navbar {
+    z-index: 99999;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black !important;
+    &:hover{
+        transform: scale(1.1);
+        color:yellow !important;
+    }
+}

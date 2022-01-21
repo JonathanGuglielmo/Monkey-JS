@@ -1,0 +1,38 @@
+@import 'base/colors';
+@import 'base/fonts';
+@import 'base/querys';
+@import 'base/variables';
+@import 'base/size';
+
+@import 'functions/extends';
+@import 'functions/mixins';
+
+@import 'sections/header';
+@import 'sections/terminologias';
+@import 'sections/footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+
+.row {
+    --bs-gutter-x:0!important;
+    }
+
+
+/* Body */
+
+body {
+    overflow-x: hidden;
+    background-color: nth($colores2, 3);
+    font-size: 1.1em; 
+    transition: .3s ease all;
+    &.dark {
+        background: nth($colores1, 6);
+    }
+}
+
+
