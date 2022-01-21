@@ -1,11 +1,12 @@
-<h1 align="center">Shark Store - entrega parcial CoderHouse</h1>
+<h1 align="center">Monkey explains (EN PROGRESO)</h1>
 
-<h1 align="center">https://unruffled-darwin-c5f025.netlify.app/</h1>
+<h1 align="center">https://elegant-hamilton-79d593.netlify.app/</h1>
 
-<h3 align="center">Tienda online - entrega parcial CoderHouse</h3>
+<h3 align="center">Tutoriales y herramientas</h3>
 
 <h2 align="center">Descripción del proyecto</h2>
-<p align="center">Store parcial hecha con JavaScript</p>
+<p align="center">Monkey explains está creada para ayudar al nuevo programador.
+El objetivo principal es brindarle al nuevo programador una explicación sencilla de los conceptos de JS.</p>
 
 <h2 align="center">Usar git pull antes de hacer cambios!</h2>
 
